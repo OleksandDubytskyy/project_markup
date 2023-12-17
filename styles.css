@@ -1,0 +1,793 @@
+*{
+  padding: 0;
+  margin: 0;}
+body {
+  overflow-x: hidden;
+  } 
+
+h1 {
+   font-family: "poppins",sans-serif;
+   
+  }
+h2{
+ font-family:"FREESCPT";
+}
+#menu{
+  
+    padding: 15px;
+    width: 100vw;
+  }
+#menu .logo{
+    padding-left: 80px;
+    width: 80px;
+    height: 80px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+    margin-right: 100px;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 20px;
+
+}
+.navbar ul a {
+text-decoration: none;
+font-size: 20px;
+color: rgb(64, 63, 63);
+background:linear-gradient(black 0 0) bottom /var(--t, 0) 2px no-repeat;
+transition: .5s;
+}
+.navbar ul li a:hover{
+    --t: 50%;}
+  
+  
+  /* Мобільне меню */
+  @media screen and (max-width: 768px) {
+    /* Ваші стилі для мобільного меню */
+  }
+  
+  /* Секція з формою */
+  #form_section{
+    background-image: url('C:/Users/oleks/OneDrive/Pulpit/Progect_1/bg-01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100vw;
+    position: relative;
+    overflow-x: hidden;
+
+}
+.background_color_form{
+  position: absolute;
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    background-color: rgba(99, 99, 252, 0.644);
+
+}
+.content{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+
+}
+.content form{
+  background-color: rgb(252, 254, 254);
+  border-radius: 15px;
+  height: 500px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+}
+.content form legend h1{
+color:rgba(88, 88, 241, 0.785);
+position: relative;
+left: 30px;
+top: 15px;
+font-size: 36px;
+}
+.content form input{
+  width: 300px;
+  height:70px;
+  border:none;
+  background-color: rgb(237, 237, 237);
+  border-radius: 12px;
+  position: relative;
+  left: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  
+}
+.content form select{
+  width:310px;
+  height:70px;
+  border:none;
+  background-color: rgb(237, 237, 237);
+  border-radius: 12px;
+  position: relative;
+  left: 15px;
+  padding-left: 10px;
+  color:rgb(117, 116, 116);
+  font-size: 20px;
+  
+}
+.content form button{
+  background-color: rgba(78, 78, 229, 0.785);
+  width: 173px;
+  height: 53px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  position: relative;
+  left:150px;
+  
+}
+.content form button h3{
+  color:white;
+  font-family: "poppins",sans-serif;
+}
+.text_form_section{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    justify-content: center;
+}
+.text_form_section h1{
+    font-size: 50px;
+    color: azure;
+    padding-bottom: 50px;
+}
+.text_form_section h2{
+  width: 268px;
+  height: 85px;
+  font-size: 40px;
+    color: azure;
+
+}
+.yoga-section{
+  width: 100vw;
+  height: 1200px;
+}
+.text-yoga-section{
+  width: 100vw;
+  height: 150px;
+  text-align: center;
+  
+
+}
+.text-yoga-section h1{
+  font-size: 36px;
+  color:rgba(78, 78, 229, 0.785) ;
+  margin-top: 100px;
+}
+.text-yoga-section h2{
+  font-size: 36px;
+  color:rgb(157, 157, 157) ;
+  padding-top: 30px;
+
+}
+.yoga-block-setting{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  
+  
+}
+.block_yoga-section{
+  width: 666px;
+  height: 306px;
+  border-radius: 12px;
+  display: flex;
+  box-shadow: 5px 5px 15px rgb(207, 207, 207);
+  margin: 30px;
+ 
+  
+  
+}
+.block_yoga-section img{
+  width: 45%;
+  height: 100%;
+}
+
+.block_yoga-text h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(143, 143, 143);
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-bottom: 20px;
+  
+}
+.block_yoga-text p{
+  height: 170px;
+  width: 150px;
+  font-size: 18px;
+  color: rgb(121, 121, 121);
+  padding-left: 70px;
+}
+.block_yoga-text h4 {
+  color: rgb(214, 214, 214);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 70px;
+} 
+  @media screen and (max-width: 768px) {
+    /* Ваші респонсивні стилі для секції з формою на мобільних екранах */
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Ваші респонсивні стилі для секції "Yoga FEATURE PROGRAM" на мобільних екранах */
+  }
+  
+  @media screen and (max-width: 570px) {
+    /* Ваші стилі для секції "Yoga FEATURE PROGRAM" на екранах менше 570px */
+  }
+  
+  /* Секція з картинками */
+  .image-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 600px;
+}
+
+.image-wrapper {
+    position: relative;
+    width:25%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.zoom-img {
+    width: 100%;
+    height: 100%;
+    transition: filter 0.3s ease-in-out;
+}
+
+.image-wrapper:hover .zoom-img {
+    filter: rgba(78, 78, 229, 0.785)(100%);
+}
+
+.image-wrapper::before {
+    content:url('C:\Users\oleks\OneDrive\Pulpit\input\images\icon-loupe-.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(78, 78, 229, 0.785);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.image-wrapper:hover::before {
+    opacity: 1;
+}
+  
+  @media screen and (max-width: 768px) {
+    /* Ваші респонсивні стилі для секції з картинками на мобільних екранах */
+  }
+  .about-section{
+    width: 100vw;
+    height: 600px;
+  
+    
+ 
+ }
+ .text_about{
+  width: 500px;
+  height: 300px;
+  min-width: 0;
+  z-index: 10;
+  position:relative;
+  top:60%;
+  left:10%;
+}
+.text_about h1{
+  color:rgba(78, 78, 229, 0.785);
+  padding-bottom: 20px;
+  font-size: 26px;
+}
+.text_about p{
+ color:rgb(121, 121, 121);
+}
+ .slider{
+  min-width: 0;
+  position: relative;
+
+  left: 55%;
+  height: 300px;
+  width: 530px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgb(207, 207, 207);
+ }
+ .slider.slider_item{
+  height: 300px;
+  width: 530px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgb(207, 207, 207);
+ }
+ .slider_item img{
+  height: 300px;
+  width: 530px;
+ 
+ }
+
+ .slick-prev,
+.slick-next
+{
+  border-radius: 50%;
+  box-shadow:5px 5px 15px rgb(207, 207, 207);
+    font-size: 0;
+    line-height: 0;
+    z-index: 3;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+
+
+
+
+
+
+
+  
+
+  @media screen and (max-width: 768px) {
+    /* Ваші респонсивні стилі для секції "About us" на мобільних екранах */
+  }
+  
+  /* Секція info */
+.info-section {
+  background-image: url('C:/Users/oleks/OneDrive/Pulpit/Progect_1/bg-02.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100vw;
+  position: relative;
+  margin-top: 100px;
+  }
+  .background_color_info{
+    position: absolute;
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    background-color: rgba(99, 99, 252, 0.644);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   }
+   
+    .block_info{
+    height: 250px;
+    width: 270px;
+    margin: 30px;
+    text-align: center;
+    
+   }
+   
+   
+   .block_info h1{
+    color: white;
+    margin-top: 50px;
+   }
+   .block_info p{
+    color: white;
+    margin-top: 10px;
+   }
+   .border_img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white; /* Товщина та колір бордера */
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    top:10px;
+    left: 35%;
+    
+   }
+  
+   .block_info img{
+   position: absolute;
+   top:50%;
+   left:50%;
+    transform: translate(-50%, -50%);
+  }
+    
+  
+  @media screen and (max-width: 768px) {
+    /* Ваші респонсивні стилі для секції info на мобільних екранах */
+  }
+  
+  @media screen and (max-width: 570px) {
+    /* Ваші стилі для секції info на екранах менше 570px */
+  }
+  
+  /* Секція з карточками */
+  section.cards-section {
+    overflow: hidden;
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .cards_block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 600px;
+  }
+  .cards_block_section{
+    width: 350px;
+    height: 450px;
+    margin:30px;
+    border-radius: 10px 10px ;
+    box-shadow: 5px 5px 15px rgb(207, 207, 207);
+  }
+  .price_block{
+    height: 30%;
+    width: 100%;
+    background-color:rgba(78, 78, 229, 0.785);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon_valut{
+    font-size: 36px;
+    color: white;
+    font-family:"poppins",sans-serif;
+    margin-right: 10px;
+
+  }
+  .price_cards{
+    font-size: 68px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  .month{
+    font-size: 20px;
+    color: white;
+    font-family:"poppins",sans-serif;
+    margin-top: 10%;
+    margin-left: 5px;
+  }
+  .text_cards{
+    height: 70%;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  .text_cards h3{
+    margin: 15px;
+    position: relative;
+    color: rgb(153, 153, 153);
+    
+  }
+  .text_cards .border_bottom:before{
+    position:absolute;
+    bottom:-10px;
+    left:25%;
+    width:50%;
+    border-top:2px solid #e0e0e0;
+    content:"";
+}
+  .text_cards button{
+    background-color: rgba(78, 78, 229, 0.785);
+  width: 173px;
+  height: 53px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 4px 2px;
+  border-radius: 20px;
+  position: relative;
+  
+  }
+  .background_img_cards{
+    background-image: url('images/bg-03.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 600px;
+    position: absolute;
+    right:-150px;
+    bottom: -20px;
+    z-index: -1;
+      
+    
+  }
+    
+  
+  @media screen and (max-width: 992px) {
+    /* Ваші респонсивні стилі для секції з карточками на екранах менше 992px */
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Ваші респонсивні стилі для секції з карточками на екранах менше 768px */
+  }
+  
+  /* Footer */
+  footer {
+    height: 500px;
+    width: 100vw;
+    background-color: rgba(78, 78, 229, 0.785);
+  }
+  .footer_info{
+    height: 70%;
+    width: 100vw;
+  }
+  .footer_about{
+    height: 100%;
+    width: 50%;
+    margin-left: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer_about_text{
+    margin: 30px;
+  }
+  .footer_about_text h1{
+    margin: 40px;
+  }
+  .footer_about_text p{
+    margin: 40px;
+    width: 450px;
+  }
+  .footer_about_img{
+    margin-left: 70px;
+    color: rgb(255, 254, 253);
+    
+  }
+  .footer_about_img img{
+    margin: 10px;
+
+  }
+  .footer_data{
+    background-color:rgba(70, 70, 219, 0.785); 
+    height: 30%;
+    text-align: center;
+    font-size: 20px;
+     
+  }
+  .footer_data h3{
+    position: relative;
+    top:45%;
+    color: rgb(151, 151, 151);
+    font-family:'Times New Roman', Times, serif
+  }
+
+  @font-face {
+    font-family: "FREESCPT"; 
+    src: url("C:\Users\oleks\OneDrive\Pulpit\input\fonts\FREESCPT.eot"); 
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"),
+    url("C:\Users\oleks\OneDrive\Pulpit\input\fonts\FREESCPT.woff") format("woff"), 
+    url("C:\Users\oleks\OneDrive\Pulpit\input\fonts\FREESCPT.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bolder; 
+    }
+    @font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
